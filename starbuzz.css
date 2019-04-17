@@ -71,17 +71,6 @@ a:visited {
   border-bottom:    thin dotted #675c47;
 }
 
-#allcontent
-{
-  width: 800px;
-  padding-top:5px;
-  padding-bottom: 5px;
-  background-color: #675c47;
-  margin-left: auto;
-  margin-right: auto;
-
-}
-
 .t4{
  margin:0 auto;
 }
@@ -109,3 +98,25 @@ div#tableRow
   vertical-align: top;
 
 }
+
+#p1 
+{
+ 
+  
+  display: inline-block;
+  background-image: url("images/header.gif");
+  width: 400px;
+  height: 108px;
+}
+#p2
+{
+ 
+ float: right; 
+  display: inline-block;
+  background-image: url("images/header.gif");
+background-position: -400px 108px;
+width: 400px;
+  height: 108px;
+
+}
+
