@@ -120,3 +120,28 @@ width: 400px;
 
 }
 
+#coupon 
+{
+  position: fixed;
+  top: 350px;
+  left: -250px;
+  transition: 0.5s;
+}
+
+#coupon a ,img {
+  border:none;
+
+}
+#coupon:hover
+{
+  position:fixed;
+  top: 350px;
+  transform: translate(250px);
+}
+
+#award
+{
+  position: absolute;
+  top:30px;
+  left: 365px;
+}
